@@ -1,0 +1,256 @@
+#change_color{
+    background-color:darkslateblue ;
+}
+li{
+    color: white;
+    font-weight: bold;
+}
+#div1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+
+#nav-left{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     flex-shrink: inherit;
+     align-items: center;   
+}
+
+
+
+#nav-logo-left{
+display: flex;
+    flex-wrap: wrap;
+    
+     flex-shrink: inherit;
+  align-items: center;
+}
+
+/* #nav-logo-right{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+} */
+
+#nav-right{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     flex-shrink: inherit;
+  align-items: center;
+}
+
+#button_div1{
+    width: 160px;
+    text-align: left;
+    
+}
+
+
+#main{
+    margin-left: 40px;
+    
+}
+
+#card_components{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    align-items: center;
+}
+#card{
+    border: 1px solid red;
+    width: 300px;
+    height: auto;
+}
+
+#card-bottom{
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    align-content: center;
+}
+#card-bottom h4{
+    font-weight: 3;
+    text-align: center;
+}
+
+#main #div1{
+    margin-top: 20px;
+}
+
+#main #card_components{
+    margin-top: 20px;
+}
+
+
+
+#nav-right .search-container{
+    float: right;
+}
+
+#nav-right input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    height: 36px;
+    border-style: none;
+    border: 0.1px solid black;
+    
+
+  }
+  
+#nav-right button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: darkslateblue;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-style: none;
+
+  }
+
+  #nav-right .search-container button:hover {
+    background: #ccc;
+  }
+
+  .fa {
+      color: white !important;
+  }
+
+ .dropdown button{
+    border-style: none;
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    height: 36px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#button1:hover{
+   background-color: royalblue;
+   color: #fff;
+}
+
+.popup_login{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup_login input{
+display: block;
+width: 100%;
+height: 20%;
+padding: 8px;
+border-radius: 0;
+border-style: none;
+border: 1px solid gray;
+}
+
+.popup_login
+.fa {
+    color: black !important;
+}
+
+.popup_login #close {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/* popup register */
+
+
+.popup_register{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup_register input{
+display: block;
+width: 100%;
+height: 20%;
+padding: 8px;
+border-radius: 0;
+border-style: none;
+border: 1px solid gray;
+}
+
+.popup_register
+.fa {
+    color: black !important;
+}
+
+.popup_register #close {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#register_page_first{
+    width: 40%;
+    display: flex;
+ 
+  flex-direction: column;
+  flex-grow: inherit;
+}
+
+
+#card{
+    margin-bottom: 20px;
+}
